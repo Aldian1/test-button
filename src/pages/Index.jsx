@@ -152,26 +152,26 @@ const Index = () => {
           </form>
         )}
         <Flex position="absolute" top="10px" left="10px" right="10px" zIndex="10" justifyContent="space-between" alignItems="center">
-          <Button onClick={addNode} colorScheme="blue" leftIcon={<FaPlus />}>
+          <Button onClick={addNode} colorScheme="white" leftIcon={<FaPlus />}>
             Add Node
           </Button>
           <Spacer />
-          <Button onClick={clearData} colorScheme="red" leftIcon={<FaTrash />}>
+          <Button onClick={clearData} colorScheme="white" leftIcon={<FaTrash />}>
             Clear Data
           </Button>
           {isRecording ? (
-            <Button onClick={handleVoiceRecord} colorScheme="red" leftIcon={<FaStop />}>
+            <Button onClick={handleVoiceRecord} colorScheme="white" leftIcon={<FaStop />}>
               Stop Recording
             </Button>
           ) : (
-            <Button onClick={handleVoiceRecord} colorScheme="blue" leftIcon={<FaMicrophone />}>
+            <Button onClick={handleVoiceRecord} colorScheme="white" leftIcon={<FaMicrophone />}>
               Record Voice
             </Button>
           )}
           {audioURL && (
             <>
               <audio controls src={audioURL} style={{ marginLeft: "10px" }} />
-              <Button onClick={handleDeleteAudio} colorScheme="red" leftIcon={<FaTrash />} style={{ marginLeft: "10px" }}>
+              <Button onClick={handleDeleteAudio} colorScheme="white" leftIcon={<FaTrash />} style={{ marginLeft: "10px" }}>
                 Delete Recording
               </Button>
             </>
