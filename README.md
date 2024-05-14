@@ -1,6 +1,7 @@
-# test-button
+# create-node-button
 
-A button saying "test"
+A button that says create node
+
 
 ## Collaborate with GPT Engineer
 
@@ -21,8 +22,8 @@ This project is built with React and Chakra UI.
 ## Setup
 
 ```sh
-git clone https://github.com/GPT-Engineer-App/test-button.git
-cd test-button
+git clone https://github.com/GPT-Engineer-App/create-node-button.git
+cd create-node-button
 npm i
 ```
 
